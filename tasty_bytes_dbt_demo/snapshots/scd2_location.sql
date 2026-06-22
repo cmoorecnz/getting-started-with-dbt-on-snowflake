@@ -7,7 +7,8 @@
         target_schema='snapshots',
         unique_key='LOCATION_ID',
         strategy='check',
-        check_cols='all'
+        check_cols='all',
+        transient=false
     )
 }}
 
